@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+.banner{
+    height: 550px;
+    width:100%;
+    padding-top: 109px;
+    padding-left: 77px;
+    
+}
+
+.hero_text{
+    margin-top: 0;
+    color:#FFFFFF;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 72px;
+    width: 490px;
+
+}
+
+
+@media screen and (max-width: 850px) {
+    .banner{
+       padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    
+    .hero_text{
+        text-align: center;
+        
+
+       
+    }
+}
+
+
+
+@media screen and (max-width: 376px) {
+    .hero_text{
+       width: 100%;
+       font-size: 40px;
+    }
+    .banner{
+        height: 300px;
+    }
+}

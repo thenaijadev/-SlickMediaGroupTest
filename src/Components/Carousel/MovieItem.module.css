@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 12px;
+    color: #ffffff;
+    background-color: #000000;
+    margin: 13px;
+    min-width: 300px;
+    min-height: 300px;
+    font-family: 'DM Sans', sans-serif;
+
+    
+}
+
+
+@media screen and (max-width: 376px) {
+   .container{    
+    min-width: 300px;
+    min-height: 300px;
+}
+}

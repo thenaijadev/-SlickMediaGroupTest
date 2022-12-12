@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+.input_div{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.form{
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+    width: 88%;
+    margin-top: 100px;
+}
+.label{
+    color: #000000;
+    font-family: 'DM Sans', sans-serif;
+    margin-bottom: 3px;
+    font-weight: 400;
+    
+}
+
+.input{
+    width: 100%;
+    height:8vh;
+    border: 1px solid #000000;
+    margin-bottom: 5vh;
+}

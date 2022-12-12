@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+.parent{
+    margin-top: 15vh;
+    margin-bottom: -50px;
+    
+}
+
+.carousel{
+    display: flex;
+    overflow-x: scroll;
+    margin-left: 67px;
+    -webkit-overflow-scrolling: touch;
+   
+}
+::-webkit-scrollbar {
+    display: none;
+ }
+.categorie_text{
+    font-size: 24px;
+    font-family: 'DM Sans', sans-serif;
+    padding-left: 80px;
+}
+
+@media screen and (max-width: 850px) {
+ .parent{
+    margin-left: -40px;
+ }
+}
